@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
-import { Home, Compass, GraduationCap, MessageSquare, LayoutDashboard, Settings, BrainCircuit, LogOut } from 'lucide-react';
+import { Home, Compass, GraduationCap, MessageSquare, LayoutDashboard, Settings, BrainCircuit, LogOut, CalendarCheck } from 'lucide-react';
 import { useUser } from '../context/UserContext';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -15,8 +15,9 @@ export default function Sidebar() {
     { id: '1', label: 'Dashboard', icon: LayoutDashboard, to: '/dashboard' },
     { id: '2', label: 'AI Roadmap', icon: Compass, to: '/roadmap' },
     { id: '3', label: 'Colleges', icon: GraduationCap, to: '/colleges' },
-    { id: '4', label: 'AI Mentor', icon: MessageSquare, to: '/chat' },
-    { id: '5', label: 'Settings', icon: Settings, to: '/profile' },
+    { id: '4', label: 'Book Mentor', icon: CalendarCheck, to: '/mentors' },
+    { id: '5', label: 'AI Mentor', icon: MessageSquare, to: '/chat' },
+    { id: '6', label: 'Settings', icon: Settings, to: '/profile' },
   ];
 
   const handleLogout = () => {
