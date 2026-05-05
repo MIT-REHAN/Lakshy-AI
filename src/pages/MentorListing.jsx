@@ -13,7 +13,7 @@ const MENTORS = [
     experience: '10+ Years',
     tags: ['AI', 'Machine Learning', 'PhD'],
     desc: 'Former DeepMind researcher with 10+ years experience in neural architectures and career coaching.',
-    fee: 85,
+    fee: 349,
     available: 'Tomorrow at 10:00 AM',
     avatar: 'AT',
     avatarBg: '#6366F1',
@@ -27,7 +27,7 @@ const MENTORS = [
     experience: '8 Years',
     tags: ['STEM', 'Architecture', 'Leadership'],
     desc: 'Helping students transition from engineering basics to high-level system design at Fortune 500 firms.',
-    fee: 70,
+    fee: 299,
     available: 'Today at 4:00 PM',
     avatar: 'SJ',
     avatarBg: '#8B5CF6',
@@ -41,7 +41,7 @@ const MENTORS = [
     experience: '12 Years',
     tags: ['MBA', 'Startups', 'Business'],
     desc: 'Specializing in career switches for professionals entering the tech ecosystem and startup world.',
-    fee: 100,
+    fee: 399,
     available: 'Tomorrow at 2:00 PM',
     avatar: 'MC',
     avatarBg: '#10B981',
@@ -55,7 +55,7 @@ const MENTORS = [
     experience: '9 Years',
     tags: ['Coding', 'Big Tech', 'Mentorship'],
     desc: 'Expert in technical interview preparation and navigating the early years of a software engineering career.',
-    fee: 65,
+    fee: 249,
     available: 'Today at 6:00 PM',
     avatar: 'ER',
     avatarBg: '#EC4899',
@@ -69,7 +69,7 @@ const MENTORS = [
     experience: '7 Years',
     tags: ['Analytics', 'Python', 'STEM'],
     desc: 'Bridging the gap between academic theory and industrial data application for graduating PhD students.',
-    fee: 75,
+    fee: 299,
     available: 'Tomorrow at 11:00 AM',
     avatar: 'DP',
     avatarBg: '#F59E0B',
@@ -83,7 +83,7 @@ const MENTORS = [
     experience: '6 Years',
     tags: ['Design', 'Psychology', 'Product'],
     desc: 'Focusing on the intersection of human behavior and digital products. Guiding the next gen of researchers.',
-    fee: 60,
+    fee: 199,
     available: 'Today at 3:00 PM',
     avatar: 'AQ',
     avatarBg: '#EF4444',
@@ -262,7 +262,7 @@ export default function MentorListing() {
               onMouseOver={e => e.currentTarget.style.background = '#4F46E5'}
               onMouseOut={e => e.currentTarget.style.background = '#6366F1'}
             >
-              Book Meeting — ₹{mentor.fee * 85}/session
+              Book Meeting — ₹{mentor.fee}/session
             </button>
           </motion.div>
         ))}

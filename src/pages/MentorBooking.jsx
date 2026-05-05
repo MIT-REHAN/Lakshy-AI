@@ -349,7 +349,7 @@ export default function MentorBooking() {
 
                 <div style={{ display: 'flex', justifyContent: 'space-between', padding: '20px 0 0', marginTop: 8 }}>
                   <span style={{ fontSize: 16, fontWeight: 800, color: '#111827' }}>Total</span>
-                  <span style={{ fontSize: 20, fontWeight: 900, color: '#6366F1' }}>₹7,225</span>
+                  <span style={{ fontSize: 20, fontWeight: 900, color: '#6366F1' }}>₹349</span>
                 </div>
               </div>
 
@@ -365,7 +365,7 @@ export default function MentorBooking() {
                   boxShadow: '0 8px 24px rgba(99,102,241,0.35)',
                 }}
               >
-                Confirm & Pay ₹7,225
+                Confirm & Pay ₹349
               </button>
             </motion.div>
           )}

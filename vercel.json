@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/LakshyDemo/(.*)", "destination": "/index.html" },
+    { "source": "/LakshyDemo", "destination": "/index.html" }
+  ]
+}

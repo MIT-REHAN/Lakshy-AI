@@ -22,7 +22,7 @@ const MENTORS = [
       { name: 'Rahul K.', role: 'ML Engineer @ Google', text: "Dr. Thorne's roadmap was the turning point in my career. I went from confused to landing my dream AI role." },
       { name: 'Anita M.', role: 'PhD Candidate, IIT', text: 'Invaluable advice on my research proposal. His expertise in STEM is unmatched.' },
     ],
-    fee: 85,
+    fee: 349,
     available: 'Tomorrow at 10:00 AM',
     avatar: 'AT',
     avatarBg: '#6366F1',
@@ -45,7 +45,7 @@ const MENTORS = [
       { name: 'Priya S.', role: 'SDE @ Amazon', text: 'Sarah helped me crack Amazon system design in just 4 sessions. Incredible mentor!' },
       { name: 'Ravi M.', role: 'Engineering Lead', text: 'Her structured approach to career growth is unmatched.' },
     ],
-    fee: 70,
+    fee: 299,
     available: 'Today at 4:00 PM',
     avatar: 'SJ',
     avatarBg: '#8B5CF6',
@@ -68,7 +68,7 @@ const MENTORS = [
       { name: 'Karan L.', role: 'Product Manager @ Startup', text: 'Michael helped me make the leap from corporate to startup. Best decision ever.' },
       { name: 'Shreya P.', role: 'MBA Graduate', text: 'His business acumen and mentoring style are simply world-class.' },
     ],
-    fee: 100,
+    fee: 399,
     available: 'Tomorrow at 2:00 PM',
     avatar: 'MC',
     avatarBg: '#10B981',
@@ -91,7 +91,7 @@ const MENTORS = [
       { name: 'Amit R.', role: 'SWE @ Meta', text: "Elena's mock interviews were tougher than the real thing — and that's exactly what I needed." },
       { name: 'Neha V.', role: 'Junior Developer', text: 'Her advice on navigating the first job was incredibly practical.' },
     ],
-    fee: 65,
+    fee: 249,
     available: 'Today at 6:00 PM',
     avatar: 'ER',
     avatarBg: '#EC4899',
@@ -114,7 +114,7 @@ const MENTORS = [
       { name: 'Pooja N.', role: 'Data Scientist @ Netflix', text: 'David gave me the exact roadmap I needed to break into industry from academia.' },
       { name: 'James T.', role: 'Analytics Lead', text: 'Outstanding depth of knowledge in Python and ML systems.' },
     ],
-    fee: 75,
+    fee: 299,
     available: 'Tomorrow at 11:00 AM',
     avatar: 'DP',
     avatarBg: '#F59E0B',
@@ -137,7 +137,7 @@ const MENTORS = [
       { name: 'Sara L.', role: 'UX Designer @ Figma', text: "Amina's feedback transformed how I approach user research. A true expert." },
       { name: 'Vikram B.', role: 'Product Designer', text: 'The best design mentor I have ever worked with — no contest.' },
     ],
-    fee: 60,
+    fee: 199,
     available: 'Today at 3:00 PM',
     avatar: 'AQ',
     avatarBg: '#EF4444',
@@ -267,7 +267,7 @@ export default function MentorProfile() {
           >
             <div style={{ fontSize: 12, fontWeight: 700, color: '#9CA3AF', textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 6 }}>Consultation Fee</div>
             <div style={{ display: 'flex', alignItems: 'baseline', gap: 6, marginBottom: 4 }}>
-              <span style={{ fontSize: 36, fontWeight: 900, color: '#111827', letterSpacing: '-0.03em' }}>₹{mentor.fee * 85}</span>
+              <span style={{ fontSize: 36, fontWeight: 900, color: '#111827', letterSpacing: '-0.03em' }}>₹{mentor.fee}</span>
               <span style={{ fontSize: 14, color: '#9CA3AF', fontWeight: 600 }}>/ 45-min session</span>
             </div>
             <div style={{ height: 1, background: '#F3F4F6', margin: '20px 0' }} />
